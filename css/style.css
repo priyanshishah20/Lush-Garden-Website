@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato';
+}
+.text-green{
+    color: #285A43;
+}
+.color-white{
+    color: white;
+}
+.bg-grey{
+    background-color: #f8f9fa;
+}
+.no-padding{
+    padding: 0;
+}
+.no-margin{
+    margin: 0;
+}
+.card{
+    border: none;  
+} 
+.form-control::placeholder { 
+    color: white;
+    opacity: 0.7; 
+}
+
+.form-control:-ms-input-placeholder { 
+    color: white;
+}
+
+.form-control::-ms-input-placeholder {
+    color: white;
+}
+.margin-0{
+    padding-right: 0;
+}
+
+@media (max-width: 799.98px) {
+  .responsive-font {
+    font-size: 20px;
+  }
+} 
